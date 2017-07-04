@@ -39,7 +39,7 @@
 
     <dependencies>
         <provided>
-            <jar>org.slf4j:slf4j-api:1.7.23</jar>
+            <jar>org.slf4j:slf4j-api:1.7.25</jar>
             <jar>javax:javaee-api:7.0</jar>
         </provided>
 
