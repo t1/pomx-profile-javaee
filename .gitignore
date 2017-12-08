@@ -1,2 +1,2 @@
-profile-javaee.iml
-pom.xml
+*.iml
+target/

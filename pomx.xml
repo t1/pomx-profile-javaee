@@ -4,5 +4,5 @@
     <pom>com.github.t1:profile-javaee:7.0.0-SNAPSHOT</pom>
     <description>POMX profile to build Java EE Web Archives</description>
 
-    <profile>com.github.t1:pomx-profile:1.0.0-SNAPSHOT</profile>
+    <profile>com.github.t1:pomx-profile-profile:1.0.0-SNAPSHOT</profile>
 </project>
