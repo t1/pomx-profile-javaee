@@ -39,7 +39,7 @@
 
     <dependencies>
         <provided>
-            <jar>org.slf4j:slf4j-api:1.7.25</jar>
+            <jar>org.slf4j:slf4j-api:1.7.26</jar>
             <jar>javax:javaee-api:7.0</jar>
             <jar>com.sun.mail:javax.mail:jar:1.6.2</jar><!-- 1.5.0 is included in javaee-api:7.0 but has CWE-200 -->
         </provided>
