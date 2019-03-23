@@ -12,7 +12,7 @@
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
-            <plugin id="org.apache.maven.plugins:maven-war-plugin:3.0.0">
+            <plugin id="org.apache.maven.plugins:maven-war-plugin:3.2.2">
                 <configuration>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
@@ -22,7 +22,7 @@
                     </archive>
                 </configuration>
             </plugin>
-            <plugin id="org.apache.maven.plugins:maven-failsafe-plugin:2.19.1">
+            <plugin id="org.apache.maven.plugins:maven-failsafe-plugin:2.22.1">
                 <executions>
                     <execution>
                         <id>perform-it</id>
