@@ -8,7 +8,7 @@
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
-            <plugin id="org.apache.maven.plugins:maven-war-plugin:3.2.2">
+            <plugin id="org.apache.maven.plugins:maven-war-plugin:3.2.3">
                 <configuration>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
