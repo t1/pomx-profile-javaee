@@ -23,8 +23,8 @@
 
     <dependencies>
         <provided>
-            <jar>javax:javaee-api:7.0</jar>
-            <pom>org.eclipse.microprofile:microprofile:2.2</pom>
+            <jar>javax:javaee-api:8.0.1</jar>
+            <pom>org.eclipse.microprofile:microprofile:3.0</pom>
             <jar>org.slf4j:slf4j-api:1.7.26</jar>
             <jar>com.sun.mail:javax.mail:jar:1.6.2</jar><!-- 1.5.0 is included in javaee-api:7.0 but has CWE-200 -->
         </provided>
