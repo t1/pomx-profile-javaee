@@ -8,7 +8,7 @@
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
-            <plugin id="org.apache.maven.plugins:maven-war-plugin:3.2.3">
+            <plugin id="org.apache.maven.plugins:maven-war-plugin:3.3.1">
                 <configuration>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
@@ -24,7 +24,7 @@
     <dependencies>
         <provided>
             <jar>jakarta.platform:jakarta.jakartaee-api:8.0.0</jar>
-            <pom>org.eclipse.microprofile:microprofile:3.2</pom>
+            <pom>org.eclipse.microprofile:microprofile:3.3</pom>
             <jar>org.slf4j:slf4j-api:1.7.30</jar>
             <jar>javax.xml.bind:jaxb-api:2.3.1</jar>
         </provided>
